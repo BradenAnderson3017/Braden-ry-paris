@@ -45,9 +45,10 @@ h1{
 .words{
     position: relative;
     left: 120px;
-    top: 20px;
+    top: 60px;
     width: 80%;
     padding-bottom: 40px;
+    margin-bottom: 40px ;
 }
 h2{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -87,12 +88,13 @@ div.container1 img, div.container2 img, div.container3 img, div.container4 img{
 }
 div.first{
     background-color: rgb(255, 252, 243);
+    padding-bottom: 25px;
     margin-bottom: -25px;
 }
 div.second{
-   background-color: rgb(217, 227, 248);
-   margin: 30px 0px 30px 0px;
-   padding: 30px 0px 30px 0px;
+   background-color: rgb(217, 224, 240);
+   margin: 20px 0px -60px 0px;
+   padding: 0px 0px 0px 0px;
 }
 div.container4, div.container5, div.container6, div.container7 {
     width: 200px;
@@ -115,4 +117,9 @@ div.pic-words2{
     margin: 0px 20px 0px 20px;
     background-color: white;
     text-align: center;
+}
+p.ptag1, p.ptag2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 20px 100px 0px 0px;
 }
